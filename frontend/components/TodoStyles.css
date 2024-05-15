@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  
+  body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    /* Add styles for your box here */
+    width: 100%; /* Adjust width as needed */
+    max-width: 600px; /* Adjust max-width as needed */
+    padding: 100px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    margin-top: 40px;
+  }
+  
+  .inputbox {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 20px 100px 17px 14px;
+  }
+ ::placeholder{
+    font-size: 18px;
+
+ }
+  input[type="text"]{
+    font-size: 18px;
+
+ }
+ input[type="text"]:focus::placeholder{
+    color: transparent;
+ }
+  
+  .addtodo {
+    color: white;
+    outline: 0;
+    grid-gap: 8px;
+    align-items: center;
+    background: 0 0;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: 16px;
+    gap: 8px;
+    justify-content: center;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all .14s ease-out;
+    white-space: nowrap;
+  }
+  
+  .addtodo:hover {
+    box-shadow: 4px 4px 0 #ffffff;
+    transform: translate(-4px,-4px);
+  }
+  
+  .addtodo:focus-visible {
+    outline-offset: 1px;
+  }
+  

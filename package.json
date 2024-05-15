@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "mongoose": "^8.3.2",
+    "moongoose": "^0.0.1",
+    "react-router-dom": "^6.23.0"
+  }
+}

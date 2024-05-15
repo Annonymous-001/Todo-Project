@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+
+# Environment configuration
+.env
+
+# Build outputs
+dist/
+build/
+
+# MacOS folder metadata
+.DS_Store
+
+# Cache files
+.cache/
+
+# Log files
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
